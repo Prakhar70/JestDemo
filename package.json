@@ -13,6 +13,7 @@
     "jest-html-reporter": "^3.10.2"
   },
   "jest":{
+    "collectCoverage":true,
     "reporters":[
       "default", [
         "./node_modules/jest-html-reporter",
